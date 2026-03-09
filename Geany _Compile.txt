@@ -1,0 +1,24 @@
+using System;
+class Variables
+{
+	static void Main()
+	{
+		int num1, num2;
+		Console.Write("Dime el num1: ");
+		num1 = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine(num1);
+	}
+}
+
+
+_Compile                      mcs /t:winexe "%f" /r:System,System.Drawing
+
+Make                          make
+Make Custom _Target...        make
+
+Make _Object                  make %e.o
+
+
+_Execute                      mono "%e.exe"
+
+

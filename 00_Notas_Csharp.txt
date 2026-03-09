@@ -1,0 +1,16 @@
+Uso VScode(laptop trabajo) pero el profe utiliza Visual Studio
+Visual Studio Menu: Archivo-Nuevo-Proyecto-Aplicacion de consola
+-Nombre del proyecto, ubicacion,Nombre de la solucion
+*Crear= muestra esqueleto del proyecto, se borran datos avanzados
+VS>2019 , ejecuto con F5 o Play>Ejempol=Iniciar  (VS viejos Iniciar sin depurar)
+Con VScode >con flecha abajo veo:Run Code, Run project asocciete with this file, Run debug... // Elegir Run project asoc with this file
+* Variables - Uso de pseudocodigo - Datos los da el usuario
+pseudocodigo1(simplifico qué quiero hacer)
+    Pedir num1
+    Pedir num2
+    Mostrar num1 + num2
+pseudocodigo2 (mas real)
+    Declaro n1 y n2 como enteros
+    Mensaje de aviso al usuario->"Dime el n1: "
+    Leo y guardo el dato del usuario->num1=
+    Escribo que hago + resultado->"Su suma es: " + (n1+n2)
